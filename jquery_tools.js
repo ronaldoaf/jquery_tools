@@ -15,7 +15,7 @@ $.waitFor=function(elemento, func, timeout, func_error){
 		c+=0.5;
 
 	},500);
-}
+};
 
 
 jQuery.fn.extend({
