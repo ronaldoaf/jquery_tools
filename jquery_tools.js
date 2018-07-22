@@ -1,6 +1,6 @@
 
 $.waitFor=function(elemento, func, timeout, func_error){
-    if( typeof timeout === "undefined" ) timeout=30;
+    if( typeof timeout === "undefined" ) timeout=60;
     if( typeof func_error === "undefined" ) func_error=function(){};
 	var c=0;
 	var loop=setInterval(function(){
